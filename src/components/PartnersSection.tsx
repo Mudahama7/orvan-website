@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 const partners = [
-  "/src/assets/patners_logo/fao.webp", "/src/assets/patners_logo/cordaid.png", 
-  "/src/assets/patners_logo/medair.svg", "/src/assets/patners_logo/adra.jpg", 
-  "/src/assets/patners_logo/hi.jpg", "/src/assets/patners_logo/unhcr.png",
-  "/src/assets/patners_logo/unicef.png", "/src/assets/patners_logo/who.webp", 
-  "/src/assets/patners_logo/undp.jpg", "/src/assets/patners_logo/world_vision.png",
+  "/patners_logo/fao.webp", "/patners_logo/cordaid.png", 
+  "/patners_logo/medair.svg", "/patners_logo/adra.jpg", 
+  "/patners_logo/hi.jpg", "/patners_logo/unhcr.png",
+  "/patners_logo/unicef.png", "/patners_logo/who.webp", 
+  "/patners_logo/undp.jpg", "/patners_logo/world_vision.png",
 ];
 
 export default function PartnersSection() {
