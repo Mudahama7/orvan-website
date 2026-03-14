@@ -40,8 +40,8 @@ export default function HeroSection() {
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-semibold px-8">
-              <Link to="/contact">
+           <Button asChild size="lg" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-semibold px-8">
+              <Link to="/contact">    
                 <Phone className="mr-2 h-4 w-4" />
                 {t("hero.contact")}
               </Link>
