@@ -17,6 +17,7 @@ import StationeryPage from "./pages/StationeryPage.tsx";
 import NFIPage from "./pages/NFIPage.tsx";
 import ArchivingPage from "./pages/ArchivingPage.tsx";
 import WebDevPage from "./pages/WebDevPage.tsx";
+import Policy from "./pages/PolicyPage.tsx";
 
 const queryClient = new QueryClient();
 
@@ -32,6 +33,7 @@ const App = () => (
             <Route path="/achievements" element={<AchievementsPage />} />
             <Route path="/equipment" element={<EquipmentPage />} />
             <Route path="/faq" element={<FAQPage />} />
+            <Route path="/policy" element={<Policy/>}/>
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/about/history" element={<HistoryPage />} />
             <Route path="/about/values" element={<ValuesPage />} />

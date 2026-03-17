@@ -20,7 +20,7 @@ const translations: Record<string, Record<Lang, string>> = {
   "nav.history": { en: "Our History", fr: "Notre Histoire" },
   "nav.values": { en: "Our Values", fr: "Nos Valeurs" },
   "nav.printing": { en: "Printing", fr: "Imprimerie" },
-  "nav.stationery": { en: "Stationery", fr: "Fournitures de bureau" },
+  "nav.stationery": { en: "Stationery", fr: "Papeterie" },
   "nav.nfi": { en: "NFI Kits", fr: "Kits NFI" },
   "nav.archiving": { en: "Data Archiving", fr: "Archivage" },
   "nav.webdev": { en: "Web Development", fr: "Développement Web" },

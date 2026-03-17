@@ -43,6 +43,7 @@ export default function Navbar() {
     { label: t("nav.achievements"), to: "/achievements" },
     { label: t("nav.equipment"), to: "/equipment" },
     { label: t("nav.faq"), to: "/faq" },
+    { label: t("nav.policy"), to: "/policy" },
     { label: t("nav.contact"), to: "/contact" },
   ];
 
@@ -112,7 +113,7 @@ export default function Navbar() {
             aria-label="Toggle language"
           >
             <Globe className="h-4 w-4" />
-            {lang === "en" ? "FR" : "EN"}
+            {lang === "fr" ? "EN" : "FR"}
           </button>
 
           <button
